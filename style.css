@@ -28,6 +28,12 @@ justify-content: space-between;
     justify-content: space-between;
     align-items: end;
     font-size: 30px;
+    @media (max-width:1100px) {
+        flex-direction: column;
+        font-size: 16px;
+    }
+    
+
     
     }
     .kartinka{
@@ -42,6 +48,9 @@ justify-content: space-between;
     color: white;
     max-width: 1900px;
     text-align: center;
+    @media (max-width:900px) {
+        font-size: 30px;
+    }
     
 }
 .section4{
@@ -70,6 +79,7 @@ footer{
     text-align: center;
   padding-top: 200px;
   font-size: 20px   ;
+  padding-bottom: 200px;
 
 }
 
